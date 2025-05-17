@@ -3,12 +3,12 @@
   "name": "horoscope-app",
   "builds": [
     { "src": "*.html", "use": "@vercel/static" },
-    { "src": "*.css", "use": "@vercel/static" },
-    { "src": "*.js", "use": "@vercel/static" }
+    { "src": "js/*.js", "use": "@vercel/static" },
+    { "src": "*.css", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
-    { "src": "/(.*).js", "dest": "/$1.js" },
+    { "src": "/js/(.*).js", "dest": "/js/$1.js" },
     { "src": "/(.*).css", "dest": "/$1.css" }
   ]
 }
