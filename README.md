@@ -51,6 +51,9 @@ La aplicación está implementada como una solución de archivo único:
 |- README.md           # Documentación
 ```
 
+3. VERCEL
+https://horoscopo-vanillajs-jh.vercel.app/
+
 ## Historia de Usuario Implementada
 
 **Historia de Usuario: Consulta de Horóscopo Web**
